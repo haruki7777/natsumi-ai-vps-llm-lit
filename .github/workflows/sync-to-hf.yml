@@ -18,4 +18,5 @@ jobs:
           github_repo_id: ${{ github.repository }}
           huggingface_repo_id: haruki7777/natsumi-ai-vps-llm-lit
           repo_type: space
-          hf_token: ${{ secrets.HF_TOKEN }}
+          space_sdk: docker
+          hf_token: ${{secrets.HF_TOKEN}}
